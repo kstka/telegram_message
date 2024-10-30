@@ -1,0 +1,20 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "telegram_message"
+version = "0.1.1"
+dependencies = [
+  "requests",
+]
+authors = [{name = "Konstantin Kalachev", email = "me@kstka.com"}]
+description = "Simple Python library to send Telegram messages"
+readme = "README.md"
+license = {text = "MIT License"}
+keywords = ["telegram", "bot", "channel", "group", "alert", "message", "notification",]
+
+[project.urls]
+Homepage = "https://github.com/kstka/telegram_message"
+Documentation = "https://github.com/kstka/telegram_message"
+Repository = "https://github.com/kstka/telegram_message"
